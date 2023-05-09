@@ -1,7 +1,8 @@
 TARGET=./main
 CC=g++
 SRCS=\
-	./main.cpp
+	./main.cpp \
+	./test/CPUTime.cpp
 
 STD=-std=c++17
 WER=-Wall -Wextra -Werror -ansi
